@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					9F60099F1E6450DD002FC75E = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PCCZJUYRT6;
 						ProvisioningStyle = Automatic;
 					};
 					9F6009B31E6450DE002FC75E = {
@@ -410,7 +411,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-uikit-uidatepicker-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-uidatepicker-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +425,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-uikit-uidatepicker-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-uidatepicker-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +508,7 @@
 				9F6009CA1E6450DE002FC75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F6009CB1E6450DE002FC75E /* Build configuration list for PBXNativeTarget "ios-uikit-uidatepicker-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +517,7 @@
 				9F6009CD1E6450DE002FC75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F6009CE1E6450DE002FC75E /* Build configuration list for PBXNativeTarget "ios-uikit-uidatepicker-demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +526,7 @@
 				9F6009D01E6450DE002FC75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

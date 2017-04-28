@@ -63,5 +63,16 @@ class ViewController: UIViewController {
         datePicker.setDate(date, animated: false)
     }
 
+    // MARK: - action
+    
+    /// DatePickerの値が変わった時(ホイールが止まった時)、コンソールに日時を出力する
+    ///
+    /// - Parameter sender: UIDatePicker
+    @IBAction func changedDate(_ sender: UIDatePicker) {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "ja_JP")
+        formatter.dateFormat = "yyyy/MM/dd HH:mm"
+        let dateStr = formatter.string(from: sender.date)
+        print(dateStr)
+    }
 }
-
